@@ -1,0 +1,313 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 150vh;
+  overflow-x: hidden;
+
+}
+
+/* MAIN HEADING */
+.main-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 60%;
+  max-width: 100vw;
+  padding: 5px;
+
+  background-image: url(./IMAGES/pic1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  position: relative;
+}
+.main-heading::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.heading-content {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  width: 62%;
+  max-height: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heading-content h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  
+  transition: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+
+  animation: slide;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+.heading-content h2 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 15px;
+
+  transition: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+   
+  animation: slide;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+.heading-content h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 15px;
+
+  transition: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+
+  animation: slide;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+
+.heading-content span {
+  color: #0dcaf0;
+  font-size: 50px;
+  margin-bottom: 15px;
+  
+  transition: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+
+  animation: slide;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+@keyframes slide{
+  0%{
+    transform: translateX(-100vh);
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* SERVICES */
+.services-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  background-color: #0dcaf0;
+  padding: 10px;
+}
+.services-heading h2{
+  font-weight: bolder;
+}
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5em;
+  flex-grow: 1;
+  padding: 0px 40px;
+}
+.service1, .service2, .service3{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  width: 21em;
+  max-height: 34em;
+  background-color: 	azure;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.08) 0px 2px 4px -1px;
+  margin: 1.5em 0em;
+
+  transition: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+.service1 p, .service2 p, .service3 p{
+  padding: 0px 30px;
+}
+/* hover effect in card body */
+.service1:hover{
+  cursor: pointer;
+  background: linear-gradient(#0dcaf0, #9198e5);
+  transform: translateY(-5px);
+}
+.service2:hover{
+  cursor: pointer;
+  background: linear-gradient(#0dcaf0, #9198e5);
+  transform: translateY(-5px);
+}
+.service3:hover{
+  cursor: pointer;
+  background: linear-gradient(#0dcaf0, #9198e5);
+  transform: translateY(-5px);
+}
+.card-heading{
+  text-align: center;
+  background-color: #0dcaf0;
+  width: 100%;
+  height: 55px;
+  padding: 15px 30px;
+}
+.service1 .card-heading h5, .service2 .card-heading h5, .service3 .card-heading h5{
+   font-weight: bolder;
+   font-size: 20px;
+   /* padding: 15px 5px; */
+}
+.service1 img, .service2 img, .service3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+@media(max-width:1200px){
+  .services{
+    flex-direction: column;
+    /* height: 100%; */
+  }
+  .service1, .service2, .service3{
+    max-width: 112%;
+    /* padding: 30px; */
+  }
+}
+
+/* COUNTRIES/UNIVERSITIES */
+/* search */
+.input-group{
+   max-width: 82%;
+   padding: 10px 20px;
+}
+.input-group input{
+  background-color: #d7f0ff;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid;
+}
+.input-group button{
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #32aefb;
+}
+.container{
+  /* display: flex;
+  justify-content: center;
+  margin: 2em;
+  gap: 1em;
+  flex-wrap: wrap; */
+
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+@media(max-width:770px)and (min-width: 430px){
+      .container{
+        grid-template-columns: 1fr 1fr;
+      }
+}
+@media(max-width: 430px){
+      .container{
+        grid-template-columns: 1fr;
+      }
+}
+.container img{
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+
+  transition: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+
+}
+.container img:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+/* for cards only */
+/* .card{
+  margin: 1em 0.5em 1em 3em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.08) 0px 2px 4px -1px;
+
+  transition: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+.card:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.card a{
+  color: white;
+  background-color: #0dcaf0;
+  font-weight: bold;
+}
+.card-body{
+  background-color: azure;
+}
+.card-body:hover{
+  background: linear-gradient(#0dcaf0, #9198e5);
+
+} */
+/* SHOW MORE BUTTON */
+.load-more{
+  display: none;
+  color: white;
+  background-color: #32aefb;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 0;
+  outline: 0;
+  margin: 10px auto;
+  cursor: pointer;
+}
