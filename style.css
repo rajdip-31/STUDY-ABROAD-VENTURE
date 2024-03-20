@@ -52,12 +52,12 @@ body {
   font-weight: bolder;
   
   transition: all;
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 
   animation: slide;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
 }
@@ -67,12 +67,12 @@ body {
   margin-bottom: 15px;
 
   transition: all;
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
    
   animation: slide;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
 }
@@ -82,12 +82,12 @@ body {
   margin-bottom: 15px;
 
   transition: all;
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 
   animation: slide;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
 }
@@ -98,12 +98,12 @@ body {
   margin-bottom: 15px;
   
   transition: all;
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-out;
   transition-delay: 0s;
 
   animation: slide;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
 }
