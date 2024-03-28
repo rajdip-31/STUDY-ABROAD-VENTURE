@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Icon links -->
+    <script src="https://kit.fontawesome.com/eee2ca9918.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
      <!-- MAIN HEADING -->
@@ -16,6 +19,7 @@
       <h2>EAGE STUDY ABROAD</h2>
       <h1>PLANNING TO <span>STUDY ABROAD?</span></h1> 
       <h3>FIND YOUR UNIVERSITY/COLLEGE FOR OVERSEAS EDUCATION</h3>
+      <button><a href="#contact">CONTACT US</a></button>
     </div>
     <!-- SERVICES -->
     <div class="services-heading">
@@ -41,84 +45,159 @@
          <p>Visa documentation and interview holds the key to a students’ successful departure to a foreign university. That is why we remain updated with the latest Visa requirements, immigration policies and checklists. We guide students on how to apply for visa and what to expect in the interview; we help you organize financial documentation. Post Visa - travel, housing, insurance and finance guidance is given for smooth transition to your campus abroad.</p>
       </div>
     </div>
-
-      <!-- COUNTRIES/UNIVERSITIES -->
-      <div id="university">
-        <div class="services-heading">
-          <h2>COUNTRIES/UNIVERSITIES</h2>          
-          <div class="input-group" id="search-bar">                  
-            <input type="search" id="search-box" class="form-control" placeholder="SEACH UNIVERSITIES WITH  COUNTRY NAME" aria-label="Search" aria-describedby="search-addon" />
-            <button type="button" id="search-button" class="btn" data-mdb-ripple-init>SEACH</button>
-          </div>
+     
+    <!-- COUNTRIES/UNIVERSITIES -->
+    <div id="university">
+      <div class="services-heading">
+        <h2>COUNTRIES/UNIVERSITIES</h2>          
+        <div class="input-group" id="search-bar">                  
+          <input type="search" id="search-box" class="form-control" placeholder="SEACH UNIVERSITIES WITH  COUNTRY NAME" aria-label="Search" aria-describedby="search-addon" />
+          <button type="button" id="search-button" class="btn" data-mdb-ripple-init>SEACH</button>
         </div>
-        <div class="container" id="search-result">
-          <!-- <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="" alt="Card image cap" style="height: 15rem;">
+      </div>
+      <div class="container" id="search-result"></div>
+    <button class="load-more" id="load-more">LOAD MORE IMAGES</button>
+
+    <!-- CARDS -->
+    <div class="services-heading" id="contact"><h2>RELATED ARTICLES</h2></div>
+    <div class="card-container">
+      <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university1.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">University of South Alabama</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="." alt="Card image cap" style="height: 15rem;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university2.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Colorado State University</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="." alt="Card image cap" style="height: 15rem;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university3.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Arizona State University</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="" alt="Card image cap" style="height: 15rem;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university4.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">University of New Haven</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="" alt="Card image cap" style="height: 15rem;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university5.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Faulkner University</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="" alt="Card image cap" style="height: 15rem;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university6.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Illinois Institute of Technology</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="" alt="Card image cap" style="height: 15rem;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university7.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">Hamline University*</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-          <div class="card" style="width: 22rem;">
-            <img class="card-img-top" src="" alt="Card image cap" style="height: 15rem;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./IMAGES/university8.jpg" alt="Card image cap" style="height: 15rem;">
             <div class="card-body">
               <h5 class="card-title">University of Michigan - Flint</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn">LEARN MORE</a>
             </div>
           </div>
-        </div> -->
+        </div>
+    </div>
+
+      
+
+      <!-- CONTACT SECTION -->
+      <div class="services-heading" id="contact"><h2>CONTACT US</h2></div>
+      <div class="box" >
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">LET'S GET IN TOUCH</h3>
+            <P class="text">South Asia’s biggest B2B company for international student recruitment</P>
+
+            <div class="info">
+              <div class="information">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <p>7th Floor, Suyojan,
+                  Off C.G. Road,
+                  Nr. Hotel President,
+                  Ahmedabad - 380 009,
+                  Gujarat, India.</p>
+              </div>
+              <div class="information">
+                <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                <p>asia@eAge.org</p>
+              </div>
+              <div class="information">
+                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                <p>+91 9825022435</p>
+              </div>
+            </div>
+            <div class="social-media">
+              <h6>CONNECT WITH US</h6>
+              <div class="social-icon">
+                <a href="https://www.facebook.com/eAgeIT/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/eage_global/channel/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/eAgeIndia" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/eageit/?originalSubdomain=in" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="">
+              <h3 class="title">SEND US A MESSAGE</h3>
+              <div class="input-container">
+                <input type="text" name="name"class="input" id="name">
+                <label for="name">NAME</label>
+                <span>NAME</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email"class="input" id="email">
+                <label for="email">EMAIL</label>
+                <span>EMAIL</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone"class="input" id="phone">
+                <label for="phone">PHONE NO.</label>
+                <span>PHONE NO.</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" id="message"   class="input"></textarea>
+                <label for="message">MESSAGE...</label>
+                <span>MESSAGE</span>
+              </div>
+              <button>SUBMIT</button>
+            </form>
+          </div>
+        </div>
       </div>
-      <button class="load-more" id="load-more">LOAD MORE</button>
+
 
 
 
