@@ -362,6 +362,8 @@ html{
 }
 .card-body{
   background-color: azure;
+  font-weight: bold;
+  font-size: 15px;
 }
 .card-body:hover{
   background: linear-gradient(#0dcaf0, #9198e5);
