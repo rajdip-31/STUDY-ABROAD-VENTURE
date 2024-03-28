@@ -1,16 +1,33 @@
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   width: 100vw;
   height: 150vh;
   overflow-x: hidden;
-  background-color: black;
+  /* background-color: black !important; */
 }
 html{
   scroll-behavior: smooth;
+}
+/* NAVBAR */
+.navbar{
+  background-color: #363535;
+  font-weight: bold;
+  opacity: 0.4;
+}
+.navbar .nav-link{
+  color: white;
+  opacity: 1;
+}
+.navbar .nav-link:hover{
+   color: #0dcaf0;
+}
+.navbar-toggler-icon{
+  background-color: white;
 }
 
 /* MAIN HEADING */
@@ -20,7 +37,7 @@ html{
   align-items: center;
   flex-direction: column;
 
-  height: 60%;
+  height:80%;
   max-width: 100vw;
   padding: 5px;
 
@@ -40,6 +57,7 @@ html{
   background-color: rgba(0, 0, 0, 0.7);
 }
 .heading-content {
+  /* margin-top: 8.5rem; */
   position: absolute;
   top: 41%;
   left: 50%;
@@ -102,12 +120,12 @@ html{
   font-weight: bolder;
   
   transition: all;
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 
   animation: slide;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
@@ -117,12 +135,12 @@ html{
   margin-bottom: 15px;
 
   transition: all;
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
    
   animation: slide;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
@@ -132,12 +150,12 @@ html{
   margin-bottom: 15px;
 
   transition: all;
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 
   animation: slide;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
@@ -148,18 +166,18 @@ html{
   margin-bottom: 15px;
   
   transition: all;
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 
   animation: slide;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
 @keyframes slide{
   0%{
-    transform: translateY(+20px);
+    transform: translateY(+30px);
     opacity: 0;
   }
   25%{

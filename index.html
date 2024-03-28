@@ -13,8 +13,30 @@
 
 </head>
 <body>
+  <div class="main-heading" id="home"></div> 
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#home">HOME</a>
+              <a class="nav-link" href="#services">SERVICES</a>
+              <a class="nav-link" href="#articles">ARTICLES</a>
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </div>
+          </div>
+          <!-- switch -->
+          <!-- <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="switch" onclick="toggleMode"/>
+            <label class="form-check-label" for="switch" id="switchText">LIGHT</label>
+          </div> -->
+        </div>
+      </nav>
      <!-- MAIN HEADING -->
-    <div class="main-heading"></div> 
+    
     <div class="heading-content">
       <h2>EAGE STUDY ABROAD</h2>
       <h1>PLANNING TO <span>STUDY ABROAD?</span></h1> 
@@ -22,7 +44,7 @@
       <button><a href="#contact">CONTACT US</a></button>
     </div>
     <!-- SERVICES -->
-    <div class="services-heading">
+    <div class="services-heading" id="services">
       <h2>SERVICES FOR STUDENTS</h2>
     </div>
     <div class="services">
@@ -41,8 +63,8 @@
          <p>Visa documentation and interview holds the key to a students’ successful departure to a foreign university. That is why we remain updated with the latest Visa requirements, immigration policies and checklists. We guide students on how to apply for visa and what to expect in the interview; we help you organize financial documentation. Post Visa - travel, housing, insurance and finance guidance is given for smooth transition to your campus abroad.</p>
       </div>
       <div class="service3">       
-         <div class="card-heading"><h5>Student Visa & Arrival</h5></div> 
-         <p>Visa documentation and interview holds the key to a students’ successful departure to a foreign university. That is why we remain updated with the latest Visa requirements, immigration policies and checklists. We guide students on how to apply for visa and what to expect in the interview; we help you organize financial documentation. Post Visa - travel, housing, insurance and finance guidance is given for smooth transition to your campus abroad.</p>
+         <div class="card-heading"><h5>Advising Centre</h5></div> 
+         <p>We believe in matching the right student to the right university. With the vast data of university options, courses and careers out there, it can be confusing to know where, when and how to apply! We help you find the right fit. Let’s discuss your past academics, career aspirations, grades and test scores. The academic levels of study that you can join are Bachelor’s Degree, Master’s Degree, Doctorate as well as Associate Degrees, Diplomas and Professional Courses. We guide you through this and more.</p>
       </div>
     </div>
      
@@ -58,77 +80,76 @@
       <div class="container" id="search-result"></div>
     <button class="load-more" id="load-more">LOAD MORE IMAGES</button>
 
-    <!-- CARDS -->
-    <div class="services-heading" id="contact"><h2>RELATED ARTICLES</h2></div>
-    <div class="card-container">
-      <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university1.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">University of South Alabama</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university2.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Colorado State University</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university3.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Arizona State University</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university4.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">University of New Haven</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university5.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Faulkner University</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university6.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Illinois Institute of Technology</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university7.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">Hamline University*</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="./IMAGES/university8.jpg" alt="Card image cap" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title">University of Michigan - Flint</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn">LEARN MORE</a>
-            </div>
-          </div>
-        </div>
+  
     </div>
-
-      
+      <!-- CARDS -->      
+      <div class="services-heading" id="articles"><h2>RELATED ARTICLES</h2></div>
+      <div class="card-container">
+        <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university1.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">University of South Alabama</h5>
+                <p class="card-text">The University of South Alabama (USA) is a public research university in Mobile, Alabama. It was created by the Alabama Legislature in May 1963.</p>
+                <a href="https://en.wikipedia.org/wiki/University_of_South_Alabama" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university2.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">Colorado State University</h5>
+                <p class="card-text">Colorado State University (Colorado State or CSU) is a public land-grant research university in Fort Collins, Colorado.</p>
+                <a href="https://en.wikipedia.org/wiki/Colorado_State_University" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university3.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">Arizona State University</h5>
+                <p class="card-text">Arizona State University (Arizona State or ASU) is a public research university in the Phoenix metropolitan area.</p>
+                <a href="https://en.wikipedia.org/wiki/Arizona_State_University" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university4.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">University of New Haven</h5>
+                <p class="card-text">The University of New Haven (UNH) is a private university in West Haven, Connecticut.</p>
+                <a href="https://en.wikipedia.org/wiki/University_of_New_Haven" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university5.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">Faulkner University</h5>
+                <p class="card-text">The university was founded in 1942 by Dr. Rex Turner, Dr. Leonard Johnson and Joe Greer as Montgomery Bible School.</p>
+                <a href="https://en.wikipedia.org/wiki/Faulkner_University" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university6.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">Illinois Institute of Technology</h5>
+                <p class="card-text">Illinois Institute of Technology (IIT), commonly referred to as Illinois Tech, is a private research university in Chicago, Illinois</p>
+                <a href="https://en.wikipedia.org/wiki/Illinois_Institute_of_Technology" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university7.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">Hamline University*</h5>
+                <p class="card-text">Hamline University (/ˈhæmlɪn/ HAM-lin) is a private university in Saint Paul, Minnesota, United States.</p>
+                <a href="https://en.wikipedia.org/wiki/Hamline_University" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="./IMAGES/university8.jpg" alt="Card image cap" style="height: 15rem;">
+              <div class="card-body">
+                <h5 class="card-title">University of Michigan - Flint</h5>
+                <p class="card-text">The University of Michigan–Flint (UM-Flint) is a public university in Flint, Michigan.</p>
+                <a href="https://en.wikipedia.org/wiki/University_of_Michigan%E2%80%93Flint" class="btn" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
 
       <!-- CONTACT SECTION -->
       <div class="services-heading" id="contact"><h2>CONTACT US</h2></div>
@@ -197,7 +218,6 @@
           </div>
         </div>
       </div>
-
 
 
 

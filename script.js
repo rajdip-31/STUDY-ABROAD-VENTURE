@@ -77,3 +77,19 @@ inputs.forEach((input) =>{
     input.addEventListener("focus", focusFunction);
     input.addEventListener("blur", blurrFunction);
 })
+
+
+// TOGGLE BETWEEN LIGHT AND DARK MODE
+
+let toggleMode = () => {
+  let text = document.querySelector("#switchText");
+  if (text.innerHTML === "LIGHT") {
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+    text.innerHTML = "DARK";
+  } else {
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+    text.innerHTML = "LIGHT";
+  }
+};
