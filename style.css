@@ -15,16 +15,22 @@ html{
 }
 /* NAVBAR */
 .navbar{
-  background-color: #363535;
-  font-weight: bold;
-  opacity: 0.4;
+  background-color: rgba(54,53,53,0.4);
+}
+.navbar-nav{
+  margin: auto;
+  gap: 1em;
 }
 .navbar .nav-link{
   color: aliceblue;
   opacity: 1;
+  font-weight: bold;
+
+  transition: all 0.3s linear 0ms;
 }
 .navbar .nav-link:hover{
    color: #0dcaf0;
+   transform: scale(1.04);
 }
 .navbar-toggler-icon{
   background-color: white;
